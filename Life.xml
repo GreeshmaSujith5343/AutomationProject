@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="name" value="Suresh S Surendran"></parameter>
+	  <parameter name="gender" value="Male"></parameter>
+	  <parameter name="Mobile number" value="9878987656"></parameter>
+	  <parameter name="email" value="Suresh90@gmail.com"></parameter>
+	  <parameter name="nationality" value="India"></parameter>
+	  
+    <classes>
+      <class name="testngpackage.Parametrisation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
